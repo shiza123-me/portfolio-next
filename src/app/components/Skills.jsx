@@ -32,7 +32,7 @@ export default function Skills() {
             key={index}
             className="border border-gray-800 rounded-2xl p-6
               flex flex-col items-center gap-4
-              hover:-translate-y-1 hover:shadow-2xl
+              hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500
               transition-all duration-300"
           >
             <div className="text-5xl text-amber-500">

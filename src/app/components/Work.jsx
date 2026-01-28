@@ -81,7 +81,7 @@ export default function Work() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="border border-gray-800 rounded-2xl p-6 hover:shadow-xl transition"
+              className="border border-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-amber-500 transition"
             >
               {/* Project Image */}
               <Link href={project.link} target="_blank">
