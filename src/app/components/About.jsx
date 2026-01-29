@@ -37,7 +37,21 @@ export default function About() {
 </div>    
       </div>
     </div>
+{/*internship*/}
 
+<div className="bg-black text-white pt-10 pb-10 animate">
+<div className="max-w-2xl mx-auto text-center space-y-4">
+  <p className="text-4xl font-bold typing">Internship Experience</p>
+  <p  className="text-xl font-semibold">Front End Internee</p>
+  <p>
+  <Icon icon="pixel:calender" className="inline-block w-5 h-5 mr-2" />
+  <span className="italic"> December 2025 - January 2026</span> 
+  </p>
+  <p  className="text-base text-gray-400">
+    During my internship as a Frontend Developer at Sky Infinit, I worked on building responsive user interfaces and translating design layouts into clean, reusable components using React.js, Next.js, HTML, CSS, and Tailwind CSS. I implemented application state management with Redux Toolkit, integrated REST APIs using Axios for dynamic data rendering, and developed features such as product filtering, CRUD operations, and form handling. I focused on improving UI performance, ensuring component reusability, and collaborating effectively with my team using Git & GitHub for version control. Throughout my internship, I actively fixed bugs, optimized frontend logic, and learned to turn mentor feedback into polished, real-world frontend solutions.
+  </p>
+</div>
+</div>
 
 {/*Education*/}
 <div className="bg-black text-white pt-10 pb-10 animate">
