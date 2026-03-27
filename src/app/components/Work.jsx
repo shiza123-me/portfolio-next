@@ -68,6 +68,13 @@ export default function Work() {
       link: "https://crud-app-blush-nine.vercel.app/",
       img: "/crudapp.jpeg",
     },
+     {
+      title: "Ecommerce store with reduxtoolkit",
+      desc: "Ecomerace store with redux toolkit for state management and firebase for backend.",
+      tech: "Next.js  Tailwind  JavaScript Redux toolkit Firebase",
+      link: "https://redux-ecomerace-project.vercel.app/",
+      img: "/redux.jpeg",
+    },
   ];
 
   return (
