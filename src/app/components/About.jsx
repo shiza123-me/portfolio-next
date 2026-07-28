@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-    <div className="flex  text-white bg-black py-12 px-12 mt-8  items-center gap-6 max-w-2xl mx-auto text-center space-y-4">
+    <div className="flex  text-white bg-black py-12 px-12 mt-8  items-center gap-6 max-w-2xl mx-auto text-center space-y-4" data-aos="fade-right">
       <div>
         
         <p className="text-3xl text-white ">
@@ -39,7 +39,7 @@ export default function About() {
     </div>
 {/*internship*/}
 
-<div className="bg-black text-white pt-10 pb-10 animate">
+<div className=" text-white pt-10 pb-10 animate" data-aos="fade-left">
 <div className="max-w-2xl mx-auto text-center space-y-4">
   <p className="text-4xl font-bold typing">Internship Experience</p>
   <p  className="text-xl font-semibold">Front End Internee</p>
@@ -54,7 +54,7 @@ export default function About() {
 </div>
 
 {/*Education*/}
-<div className="bg-black text-white pt-10 pb-10 animate">
+<div className="bg-black text-white pt-10 pb-10 animate" data-aos="fade-right">
   <div className="max-w-2xl mx-auto text-center space-y-4">
     <p className="text-4xl font-bold typing">Education</p>
 

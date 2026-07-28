@@ -29,7 +29,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white  py-10">
+    <div className="min-h-screen  text-white  py-10">
 
 
 

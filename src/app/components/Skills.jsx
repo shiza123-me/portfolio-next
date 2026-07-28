@@ -16,7 +16,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-6">
+    <section className=" text-white py-16 px-6">
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-5xl font-bold typing">Skills</h2>
         <p className="text-gray-400 mt-4 max-w-3xl mx-auto">
@@ -26,10 +26,13 @@ export default function Skills() {
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div 
+      className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto"
+      >
         {skills.map((skill, index) => (
           <div
             key={index}
+             data-aos="fade-up"
             className="border border-gray-800 rounded-2xl p-6
               flex flex-col items-center gap-4
               hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500

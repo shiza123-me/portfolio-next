@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import { Icon } from "@iconify/react";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Header() {
   return (
@@ -12,9 +13,21 @@ export default function Header() {
           <p className="text-white text-4xl sm:text-5xl md:text-6xl font-bold">
             Shiza Sultan
           </p>
-          <p className="text-gray-400 text-lg md:text-xl typing">
-            Front-End Developer
-          </p>
+          <p className="text-gray-400 text-lg md:text-xl">
+  <TypeAnimation
+    sequence={[
+      "Front-End Developer",
+      2000,
+      "API Integrator",
+      2000,
+      "MERN Stack Developer",
+      2000,
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+  />
+</p>
         </div>
 
         {/* Social Buttons */}

@@ -78,7 +78,7 @@ export default function Work() {
   ];
 
   return (
-    <section className="py-16 bg-black text-white">
+    <section className="py-16  text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className=" max-w-2xl mx-auto text-center space-y-4">
           <p className="text-5xl font-bold text-center typing">My Work</p>

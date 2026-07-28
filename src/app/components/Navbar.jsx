@@ -6,7 +6,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="text-white bg-black fixed w-full z-50">
+    <div className="text-white b fixed w-full z-50">
       <nav className="max-w-6xl mx-auto h-16 flex items-center justify-between px-4">
 
         <p className="text-2xl font-bold">Shiza</p>
