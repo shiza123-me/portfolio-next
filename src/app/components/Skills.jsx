@@ -1,22 +1,23 @@
 'use client';
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaGitAlt } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiJavascript, SiNextdotjs,SiFirebase, SiMongodb } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
-    { name: "HTML5", icon: <FaHtml5 />, level: "Advanced" },
-    { name: "CSS3", icon: <FaCss3Alt />, level: "Advanced" },
-    { name: "JavaScript", icon: <SiJavascript />, level: "Intermediate" },
-    { name: "React.js", icon: <FaReact />, level: "Intermediate" },
-    { name: "Next.js", icon: <SiNextdotjs />, level: "Intermediate" },
-    { name: "Tailwind CSS", icon: <SiTailwindcss />, level: "Advanced" },
-    { name: "Bootstrap", icon: <FaBootstrap />, level: "Intermediate" },
-    { name: "Git & GitHub", icon: <FaGitAlt />, level: "Intermediate" },
-  ];
-
+  { name: "HTML5", icon: <FaHtml5 />, level: "Advanced" },
+  { name: "CSS3", icon: <FaCss3Alt />, level: "Advanced" },
+  { name: "JavaScript", icon: <SiJavascript />, level: "Intermediate" },
+  { name: "React.js", icon: <FaReact />, level: "Intermediate" },
+  { name: "Next.js", icon: <SiNextdotjs />, level: "Intermediate" },
+  { name: "Tailwind CSS", icon: <SiTailwindcss />, level: "Advanced" },
+  { name: "Bootstrap", icon: <FaBootstrap />, level: "Intermediate" },
+  { name: "Git & GitHub", icon: <FaGitAlt />, level: "Intermediate" },
+  { name: "Firebase", icon: <SiFirebase />, level: "Intermediate" },
+  { name: "MongoDB", icon: <SiMongodb />, level: "Intermediate" },
+];
   return (
-    <section className=" text-white py-16 px-6">
+    <section className=" text-white py-6 px-2">
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-5xl font-bold typing">Skills</h2>
         <p className="text-gray-400 mt-4 max-w-3xl mx-auto">
@@ -33,8 +34,8 @@ export default function Skills() {
           <div
             key={index}
              data-aos="fade-up"
-            className="border border-gray-800 rounded-2xl p-6
-              flex flex-col items-center gap-4
+            className="border md:border-gray-800 rounded-2xl p-6
+              flex flex-col items-center gap-4 sm:border-2xl border-amber-700
               hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500
               transition-all duration-300"
           >

@@ -6,7 +6,12 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-    <div className="flex  text-white bg-black py-12 px-12 mt-8  items-center gap-6 max-w-2xl mx-auto text-center space-y-4" data-aos="fade-right">
+    <div className="px-4 sm:px-10">
+    <div
+  className="flex text-white bg-black py-12 px-1 sm:px-10 md:px-12 mt-8
+             items-center gap-6 max-w-2xl mx-auto text-center space-y-4"
+  data-aos="fade-right"
+>
       <div>
         
         <p className="text-3xl text-white ">
@@ -48,7 +53,7 @@ export default function About() {
   <span className="italic"> December 2025 - January 2026</span> 
   </p>
   <p  className="text-base text-gray-400">
-    During my internship as a Frontend Developer at Sky Infinit, I worked on building responsive user interfaces and translating design layouts into clean, reusable components using React.js, Next.js, HTML, CSS, and Tailwind CSS. I implemented application state management with Redux Toolkit, integrated REST APIs using Axios for dynamic data rendering, and developed features such as product filtering, CRUD operations, and form handling. I focused on improving UI performance, ensuring component reusability, and collaborating effectively with my team using Git & GitHub for version control. Throughout my internship, I actively fixed bugs, optimized frontend logic, and learned to turn mentor feedback into polished, real-world frontend solutions.
+    During my internship as a MERN Stack Developer at Sky Infinit, I worked on building responsive user interfaces and translating design layouts into clean, reusable components using React.js, Next.js, HTML, CSS, and Tailwind CSS,Firebase express.js and mongodb as backend. I implemented application state management with Redux Toolkit, integrated REST APIs using Axios for dynamic data rendering, and developed features such as product filtering, CRUD operations, and form handling. I focused on improving UI performance, ensuring component reusability, and collaborating effectively with my team using Git & GitHub for version control. Throughout my internship, I actively fixed bugs, optimized frontend logic, and learned to turn mentor feedback into polished, real-world frontend solutions.
   </p>
 </div>
 </div>
@@ -78,7 +83,7 @@ export default function About() {
   </div>
 </div>
 
-
+</div>
     </>
   );
 }

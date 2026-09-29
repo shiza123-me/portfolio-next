@@ -84,15 +84,17 @@ export default function Work() {
           <p className="text-5xl font-bold text-center typing">My Work</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mt-12 ">
+        <div className="grid md:grid-cols-3 gap-6 mt-12  ">
           {projects.map((project, index) => (
             <div
-              key={index}
-              className="border border-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-amber-500 transition"
-            >
+  key={index}
+  data-aos="fade-up"
+  data-aos-delay={index * 150}
+  className="border border-gray-800 rounded-2xl p-6 hover:translate-y-1 hover:shadow-lg transition-all duration-150  hover:shadow-amber-500 "
+>
               {/* Project Image */}
               <Link href={project.link} target="_blank">
-                <div className="w-full h-48 relative mb-4 cursor-pointer">
+                <div className="w-full h-48 relative mb-4 cursor-pointer  hover:shadow-amber-500">
                   <Image
                     src={project.img}
                     alt={project.title}

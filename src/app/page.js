@@ -22,23 +22,23 @@ export default function Home() {
    <div className="relative bg-[#0A0A0A] pt-16 overflow-x-hidden">
 
 
-<section id="header" className="pt-16 relative z-10" data-aos="fade-right">
+<section id="header" className="pt-4 md:pt-16 relative z-10" data-aos="fade-right">
   <Header />
 </section>
 
-<section id="about" className="pt-16 relative z-10" data-aos="fade-left">
+<section id="about" className="pt-4 md:pt-16 relative z-10" data-aos="fade-left">
   <About />
 </section>
 
-<section id="skills" className="pt-16 relative z-10" data-aos="zoom-in">
+<section id="skills" className="pt-4 md:pt-16 relative z-10" data-aos="zoom-in">
   <Skills />
 </section>
 
-<section id="work" className="pt-16 relative z-10" data-aos="fade-up">
+<section id="work" className="pt-0 md:pt-16 relative z-10" data-aos="fade-up">
   <Work />
 </section>
 
-<section id="contact" className="pt-16 relative z-10" data-aos="fade-left">
+<section id="contact" className="pt-0 md:pt-16 relative z-10" data-aos="fade-left">
   <Contact />
 </section>
     </div>

@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Header() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 text-white py-12 px-6 md:px-12 items-start gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 text-white py-2 px-6 md:px-12 items-start gap-10">
 
       {/* Left */}
       <div className="md:ml-24 text-center md:text-left">
