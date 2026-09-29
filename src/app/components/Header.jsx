@@ -60,7 +60,7 @@ export default function Header() {
       <div className="text-center md:text-left">
         <p className="text-gray-400 mb-2 text-lg md:text-xl">Hello,</p>
         <p className="text-xl sm:text-2xl md:text-3xl leading-relaxed">
-          I’m Shiza Sultan, a front-end developer building user-friendly web experiences with clean, pixel-perfect UI and smooth performance.
+          I’m Shiza Sultan, a MERN Stack developer building user-friendly web experiences with clean, pixel-perfect UI and smooth performance.
         </p>
 
         <div className="flex justify-center md:justify-start mt-6">

@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-   <div className="relative bg-[#0A0A0A] pt-12 overflow-x-hidden">
+   <div className="relative bg-[#0A0A0A] pt-16 overflow-x-hidden">
 
 
 <section id="header" className="pt-16 relative z-10" data-aos="fade-right">

@@ -6,8 +6,8 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="text-white b fixed w-full z-50">
-      <nav className="max-w-6xl mx-auto h-16 flex items-center justify-between px-4">
+    <div className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-md">
+      <nav className="max-w-6xl mx-auto  h-16 flex items-center justify-between px-4 text-white">
 
         <p className="text-2xl font-bold">Shiza</p>
 

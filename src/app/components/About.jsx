@@ -10,10 +10,10 @@ export default function About() {
       <div>
         
         <p className="text-3xl text-white ">
-           Shiza Sultan a Frontend developer
+           Shiza Sultan a MERN Stack
         </p>
         <p className="text-xl text-gray-400">
-  I’m Shiza Sultan, a front-end developer building user-friendly web experiences with clean, pixel-perfect UI and smooth performance. I specialize in crafting responsive and accessible interfaces that look great on every device. I’m passionate about creating intuitive user journeys, optimizing performance, and translating design concepts into functional code using modern technologies like React and Next.js.
+  I’m Shiza Sultan, a MERN Stack developer building user-friendly web experiences with clean, pixel-perfect UI and smooth performance. I specialize in crafting responsive and accessible interfaces that look great on every device. I’m passionate about creating intuitive user journeys, optimizing performance, and translating design concepts into functional code using modern technologies like React and Next.js.
 </p>
 
 
@@ -42,7 +42,7 @@ export default function About() {
 <div className=" text-white pt-10 pb-10 animate" data-aos="fade-left">
 <div className="max-w-2xl mx-auto text-center space-y-4">
   <p className="text-4xl font-bold typing">Internship Experience</p>
-  <p  className="text-xl font-semibold">Front End Internee</p>
+  <p  className="text-xl font-semibold">MERN Stack Internee</p>
   <p>
   <Icon icon="pixel:calender" className="inline-block w-5 h-5 mr-2" />
   <span className="italic"> December 2025 - January 2026</span> 
